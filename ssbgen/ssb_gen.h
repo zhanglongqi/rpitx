@@ -33,7 +33,8 @@
 // pour LSB : mettre USB = 1 ;
 #define MODULE_SSB_USB (-1)
 #define MODULE_SSB_LSB (1)
-void ssb(float in, int USB, float* out_I, float* out_Q);
+
+void ssb(float in, int USB, float *out_I, float *out_Q);
 
 // de combien on decale la porteuse (+ ou - )
 void ssb_init(float shift_carrier);
